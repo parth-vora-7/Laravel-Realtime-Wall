@@ -7,7 +7,7 @@
 		@if($articles->count())
 		@each('article.partials.article', $articles, 'article')
 		@else
-		<h3 class="no-article bg-danger">Sorry, no article found.</h3>
+		<h3 class="empty bg-danger">Sorry, no article found.</h3>
 		@endif
 	</div>
 	<article class="article-tmp bg-info hidden">
