@@ -4,8 +4,10 @@ Required commands to run the project:
 
 2) npm install
 
-3) php artisan serve
+3) Set BROADCAST_DRIVER to redis in .env file (And make sure you have redis installed on your machine)
 
-4) php artisan queue:work
+4) php artisan serve
 
-5) laravel-echo-server start
+5) php artisan queue:work
+
+6) laravel-echo-server start
